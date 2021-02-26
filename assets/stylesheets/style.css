@@ -1,4 +1,5 @@
 /*Boiler plate*/
+
 :root {
   --orange: #ea513e;
   --skyblue: #5cbd9d;
@@ -23,7 +24,16 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
 /*Header*/
+
 .header-nav-contact a {
   display: inline-block;
   width: 60px;
@@ -47,6 +57,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .logo-box {
   display: flex;
   align-items: center;
@@ -71,6 +82,7 @@
 #home {
   color: var(--orange);
 }
+
 .header {
   width: 100%;
   position: absolute;
@@ -82,6 +94,7 @@
   margin-top: 180px;
   text-align: center;
 }
+
 h1 {
   font-size: 46px;
   line-height: 1.5;
@@ -90,6 +103,7 @@ h1 {
   margin: 0 auto;
   border-bottom: 2px solid var(--white);
 }
+
 h5 {
   padding: 20px 0;
   font-size: 18px;
@@ -108,6 +122,7 @@ h5 {
   width: fit-content;
   margin: 0 auto;
 }
+
 /*Main*/
 /* Banner*/
 
@@ -137,11 +152,13 @@ h5 {
   background-color: var(--graydot);
   display: inline-block;
 }
+
 .blk {
   background-color: var(--blackdot);
 }
 
 /*Services*/
+
 h2 {
   text-align: center;
   font-size: 36px;
@@ -190,26 +207,35 @@ h6 {
   font-size: 30px;
   color: var(--white);
 }
+
+/*Our Portfolia*/
+
 .portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-around;
 }
+
 .port {
   width: 22%;
   margin: 20px 0;
 }
+
+/*Our Team*/
 
 .the-team {
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
+
 .member {
   width: 22%;
   border-radius: 50%;
 }
+
+/*Design Skills*/
 
 h3 {
   font-size: 24px;
@@ -227,20 +253,23 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+
 .para-1 {
   width: 67%;
 }
+
 .para-1 p {
   font-size: 18px;
 }
 
-.para-1 p span {
+.orange {
   color: var(--orange);
 }
 
 .stats {
   width: 30%;
 }
+
 .bar-chart {
   width: 100%;
   height: 40px;
@@ -254,32 +283,41 @@ h3 {
   color: var(--white);
   padding: 10px;
 }
+
 .one {
   width: 90%;
 }
+
 .two {
   width: 80%;
 }
+
 .three {
   width: 70%;
 }
+
 .four {
   width: 80%;
 }
+
+/*Contact*/
 
 .address {
   display: flex;
   justify-content: space-between;
 }
+
 .para-2 {
   width: 58%;
 }
+
 .form {
   width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .your {
   width: 100%;
   height: 30px;
@@ -287,9 +325,11 @@ h3 {
   margin: 5px auto;
   padding-top: 5px;
 }
+
 .message {
   height: 100px;
 }
+
 .button {
   display: inline-block;
   text-decoration: none;
@@ -303,15 +343,36 @@ iframe {
   margin: 40px auto;
 }
 
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.email {
+  text-decoration: none;
+  color: var(--orange);
+}
+
+/*Footer*/
+
 .footer {
   margin-top: 80px;
 }
+
 .flex {
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .to-top {
   height: 30px;
   width: 20%;
