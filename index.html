@@ -3,20 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Check-Point-1</title>
+    <title>Assignment | Check-Point-1</title>
+
+    <!--Stylesheets-->
     <link rel="stylesheet" href="assets/stylesheets/resets.css" />
     <link rel="stylesheet" href="assets/stylesheets/style.css" />
+
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+
+    <!--Font Awesome-->
     <script
       src="https://kit.fontawesome.com/5cc6fb9f6b.js"
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
+    <!--Header-->
     <header class="header">
       <div class="container">
         <nav class="header-nav-contact">
@@ -36,14 +44,14 @@
             /></a>
             <a class="heading" href="#">FLEX</a>
           </div>
-          <div class="nav-pages">
+          <nav class="nav-pages">
             <a id="home" href="#">HOME</a>
             <a href="#">SERVICES</a>
             <a href="#">PORTFOLIO</a>
             <a href="#">TEAM</a>
             <a href="./gallery.html">GALLERY</a>
             <a href="#">CONTACT</a>
-          </div>
+          </nav>
         </div>
         <div class="text">
           <h1>DIGITAL MARKETING</h1>
@@ -53,6 +61,7 @@
       </div>
     </header>
 
+    <!--Main-->
     <main class="main">
       <div class="cover" id="cover"></div>
       <img
@@ -68,7 +77,8 @@
       </div>
 
       <div class="container">
-        <div class="services">
+        <!--Our Services-->
+        <section class="services">
           <h2>OUR SERVICES</h2>
           <h6>WE DESIGN MOBILE FIRST WEBSITES FOR YOU</h6>
 
@@ -78,9 +88,10 @@
             <div class="box lightblue"><i class="fas fa-university"></i></div>
             <div class="box lightgreen"><i class="fas fa-flask"></i></div>
           </div>
-        </div>
+        </section>
 
-        <div class="portfolios">
+        <!--Our Portfolio-->
+        <section class="portfolios">
           <h2>OUR PORTFOLIO</h2>
           <h6>AMAZING WORK FOR OUR CLIENTS</h6>
 
@@ -126,9 +137,10 @@
               alt="Image-Here"
             />
           </div>
-        </div>
+        </section>
 
-        <div class="team">
+        <!--Our Team-->
+        <section class="team">
           <h2>OUR TEAM</h2>
           <h6>OUR PEOPLE ARE VERY UNITED FOR YOUR SUCCESS</h6>
 
@@ -154,13 +166,14 @@
               alt="Image-Here"
             />
           </div>
-        </div>
+        </section>
 
-        <div class="skills">
+        <!--Design Skills-->
+        <section class="skills">
           <h3>DESIGN SKILLS</h3>
           <h6 class="italic">Lorem ipsum dolor sit amet consectetur</h6>
           <div class="wrapper">
-            <div class="para-1">
+            <article class="para-1">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quisquam, incidunt, maiores impedit assumenda quia commodi esse
@@ -187,7 +200,7 @@
                 magni doloribus laborum suscipit qui quisquam facere maiores,
                 non natus sed recusandae quaerat nesciunt.
               </p>
-            </div>
+            </article>
             <div class="stats">
               <div class="bar-chart">
                 <div class="progress one">
@@ -211,9 +224,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="contacts">
+        <!--Contacts-->
+        <section class="contacts">
           <h2>CONTACTS</h2>
           <h6>SEND A MESSAGE TO US</h6>
           <iframe
@@ -258,30 +272,33 @@
               </p>
               <br />
               <br />
-              <p>Phone:033-033-0660</p>
-              <p>
-                Email:<a class="email" href="mailto:info@company.com"
-                  >info@company.com</a
-                >
-              </p>
-              <p>Address; 880De Best Studio, Fork Street, San Fransisco</p>
+              <address>
+                Phone:033-033-0660<br>
+                  Email:<a class="email" href="mailto:info@company.com"
+                    >info@company.com</a
+                  >
+              </br >
+              Address: 880De Best Studio, Fork Street, San Fransisco
+              </address>
             </div>
-            <div class="form">
+            <form class="form">
               <div class="your name">Your Name</div>
               <div class="your mail">Your Email</div>
               <div class="your subject">Subject</div>
               <div class="your message">Message</div>
               <a class="your button" href="#">SEND MESSAGE</a>
-            </div>
+            </form>
           </div>
-        </div>
+        </section>
       </div>
     </main>
+
+    <!--Footer-->
     <footer class="footer">
       <div class="container flex">
-        <p class="copyright">
+        <small class="copyright">
           Copyright &copy; 2020 Company Name.Design:TemplateMO
-        </p>
+        </small>
         <a class="to-top" href="#cover">BACK TO TOP</a>
       </div>
     </footer>
